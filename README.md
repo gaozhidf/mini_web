@@ -26,6 +26,7 @@ Struct:
     	// 配置信息
     	config *conf;
 } server;
+
    	2.连接后的服务端结构体
    	typedef struct {
     	// 客户端连接的socket
@@ -47,6 +48,7 @@ Struct:
     	// 请求文件的真实路径
     	char real_path[PATH_MAX];
 } connection;
+
     	3.HTTP请求的结构体
 	typedef struct {
     	http_method method;
@@ -57,6 +59,7 @@ Struct:
     	http_headers *headers;
     	int content_length;
 } http_request;
+
     	4.HTTP响应结构体
 	typedef struct {
     	int content_length;
