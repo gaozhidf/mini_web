@@ -1,7 +1,7 @@
 miniweb
 Sketch:
 
-	基于C gnu99和Linux socket API实现的http服务器
+	基于C 语言和Linux socket API实现的http服务器
     	1.支持多个客户端连接
     	2.支持HTTP协议中的GET方法
     	3.支持通过浏览器访问多种类型的文件资源，如.jpg和.html
